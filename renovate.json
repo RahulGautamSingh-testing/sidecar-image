@@ -8,7 +8,8 @@
         "SIDECAR_IMAGE_NAME = '(?<depName>.*)';",
         "SIDECAR_IMAGE_VERSION = 'v(?<currentValue>.*)';"
       ],
-      "datasourceTemplate": "github-releases"
+      "datasourceTemplate": "github-releases",
+      "versioningTemplate": "node"
     }
   ]
 }
