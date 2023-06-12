@@ -6,7 +6,7 @@
       "matchStringsStrategy": "combination",
       "matchStrings": [
         "SIDECAR_IMAGE_NAME = '(?<depName>.*)';",
-        "SIDECAR_IMAGE_VERSION = 'v(?<currentValue>.*)';"
+        "SIDECAR_IMAGE_VERSION = '(?<currentValue>.*)';"
       ],
       "datasourceTemplate": "github-releases",
       "versioningTemplate": "node"
