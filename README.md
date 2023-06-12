@@ -1,1 +1,2 @@
 # sidecar-image
+.
