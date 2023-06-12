@@ -6,6 +6,7 @@
       "matchStrings": [
         "default: 'containerbase/sidecar:(?<currentValue>.*)'"
       ],
+      "depNameTemplate": "containerbase/sidecar",
       "datasourceTemplate": "github-releases",
       "versioningTemplate": "node"
     }
