@@ -3,6 +3,7 @@
   "regexManagers": [
     {
       "fileMatch": ["sidecar-image-version.ts"],
+      "matchStringsStrategy": "combination",
       "matchStrings": [
         "SIDECAR_IMAGE_NAME = '(?<depName>.*)';",
         "SIDECAR_IMAGE_VERSION = '(?<currentValue>.*)';"
