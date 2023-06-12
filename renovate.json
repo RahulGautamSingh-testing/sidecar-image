@@ -4,11 +4,10 @@
     {
       "fileMatch": ["config/options/index.ts"],
       "matchStrings": [
-        "default: 'containerbase/sidecar:(?<currentValue>.*)'"
+        "default: 'ghcr.io/containerbase/sidecar:(?<currentValue>.*)'"
       ],
       "depNameTemplate": "containerbase/sidecar",
-      "datasourceTemplate": "github-releases",
-      "versioningTemplate": "node"
+      "datasourceTemplate": "docker"
     }
   ]
 }
