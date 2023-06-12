@@ -4,8 +4,8 @@
     {
       "fileMatch": ["sidecar-image-version.ts"],
       "matchStrings": [
-        "SIDECAR_IMAGE_NAME:\\s*'(?<depName>.*)'\\s*//",
-        "SIDECAR_IMAGE_VERSION:\\s*'(?<currentValue>.*)'\\s*//"
+        "SIDECAR_IMAGE_NAME = \'(?<depName>.*)\';"
+        "SIDECAR_IMAGE_VERSION = \'(?<currentValue>.*)\';"
       ],
       "datasourceTemplate": "github-releases"
     }
