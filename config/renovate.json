@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "regexManagers": [
+    {
+      "fileMatch": ["sidecar-image-version.ts"],
+      "matchStrings": [
+        "SIDECAR_IMAGE_NAME:\\s*\"(?<depName>.*)\"\\s*//",
+        "SIDECAR_IMAGE_VERSION:\\s*\"(?<currentValue>.*)\"\\s*//"
+      ],
+      "datasourceTemplate": "github-releases"
+    }
+  ]
+}
