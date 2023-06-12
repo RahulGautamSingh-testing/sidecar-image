@@ -348,7 +348,7 @@ const options: RenovateOptions[] = [
     description:
       'Change this value to override the default Renovate Docker sidecar image.',
     type: 'string',
-    default: 'ghcr.io/containerbase/sidecar:8.0.1',
+    default: 'ghcr.io/containerbase/sidecar:8.0.2',
     globalOnly: true,
   },
   {
